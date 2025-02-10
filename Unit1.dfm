@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 
-    'Exporta'#231#227'o / Importa'#231#227'o de arquivos CSV com o banco de dados Fir' +
-    'ebird'
+    'FB_CSV - Exporta'#231#227'o/Importa'#231#227'o de arquivos CSV de/para o banco d' +
+    'e dados Firebird'
   ClientHeight = 441
   ClientWidth = 624
   Color = clBtnFace
@@ -75,13 +75,6 @@ object Form1: TForm1
       Font.Style = [fsBold]
       ParentFont = False
     end
-    object Label8: TLabel
-      Left = 291
-      Top = 43
-      Width = 67
-      Height = 15
-      Caption = 'Padr'#227'o: 3050'
-    end
     object btnSelecBD: TButton
       Left = 8
       Top = 64
@@ -117,7 +110,6 @@ object Form1: TForm1
       MaxLength = 4
       NumbersOnly = True
       TabOrder = 3
-      Text = '3050'
     end
   end
   object Panel2: TPanel

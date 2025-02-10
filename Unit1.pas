@@ -36,7 +36,6 @@ type
     FDTable1: TFDTable;
     Label7: TLabel;
     edtPort: TEdit;
-    Label8: TLabel;
     Panel4: TPanel;
     procedure btnSelecBDClick(Sender: TObject);
     procedure btnExportClick(Sender: TObject);

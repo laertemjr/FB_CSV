@@ -2,13 +2,13 @@ program FB_CSV;
 
 uses
   Vcl.Forms,
-  Unit1 in 'Unit1.pas' {Form1};
+  uFB_CSV in 'uFB_CSV.pas' {frmFB_CSV};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmFB_CSV, frmFB_CSV);
   Application.Run;
 end.
