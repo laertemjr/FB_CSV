@@ -23,8 +23,13 @@ Exporta/Importa arquivos texto (.CSV) de/para o Firebird | *Export/Import text f
 * [![Delphi](https://img.shields.io/badge/-Delphi-E62431?logo=delphi&logoColor=white&style=plastic)](https://www.embarcadero.com/products/delphi) 12.1 Athens
 
 
-### 📌 Versão / *Version*
-* 0.1 - 22/01/2025 / *0.1 - 01/22/2025*
+### 📌 Versão 0.3 - 10/02/2025 / *Version 0.3 - 02/10/2025*
+* Novidades: suporte multi-idiomas: português do Brasil e Inglês.
+* *News: Multi-language support: Brazilian Portuguese and English.*
+
+
+### :hourglass_flowing_sand: Histórico das versões antigas / *Old versions timeline*
+* *[Old versions timeline](https://github.com/laertemjr/FB_CSV/tree/main/READMEold.md)*
 
 
 ### 📄 Licença / *License*
