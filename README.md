@@ -1,6 +1,6 @@
 # FB_CSV
 
-Exporta/Importa arquivos texto (CSV) de/para o Firebird | *Export/Import text files (CSV) to/from Firebird*
+Exporta/Importa arquivos texto (CSV) de/para o Firebird, facilidade na troca de dados entre Firebird e MS-Excel | *Export/Import text files (CSV) to/from Firebird, ease of data exchange between Firebird and MS-Excel*
 <br/>
 <br/>
 ### 🖥️ Pré-requisitos / *System requirements*
