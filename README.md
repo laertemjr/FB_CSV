@@ -4,7 +4,6 @@ Exporta/Importa arquivos texto (CSV) de/para o Firebird, facilidade na troca de 
 <br/>
 <br/>
 ### 🖥️ Pré-requisitos / *System requirements*
-
 *  [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows/)
 
 
@@ -14,22 +13,8 @@ Exporta/Importa arquivos texto (CSV) de/para o Firebird, facilidade na troca de 
 * *This program does not delete or change database records, but adds new records imported from a text file (CSV).*
 
 
-### 🔎 Testando o programa / *Testing the program*
-* Para testar o programa (portátil), basta fazer o download do arquivo executável, acessível a partir da pasta [Win32/Debug](https://github.com/laertemjr/FB_CSV/tree/main/Win32/Debug) deste repositório.
-* *To test the program (portable), simply download the executable file, accessible from the [Win32/Debug](https://github.com/laertemjr/FB_CSV/tree/main/Win32/Debug) folder of this repository.*
-
-
 ### 🛠️ Construído com / *Built with*
 * [![Delphi](https://img.shields.io/badge/-Delphi-E62431?logo=delphi&logoColor=white&style=plastic)](https://www.embarcadero.com/products/delphi) 12.1 Athens
-
-
-### 📌 Versão 0.3 - 10/02/2025 / *Version 0.3 - 02/10/2025*
-* Novidades: suporte multi-idiomas: português do Brasil e Inglês.
-* *News: Multi-language support: Brazilian Portuguese and English.*
-
-
-### :hourglass_flowing_sand: Histórico das versões antigas / *Old versions timeline*
-* *[Old versions timeline](https://github.com/laertemjr/FB_CSV/tree/main/READMEold.md)*
 
 
 ### 📄 Licença / *License*
