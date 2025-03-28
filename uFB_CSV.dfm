@@ -23,7 +23,6 @@ object frmFB_CSV: TfrmFB_CSV
     Color = clGradientActiveCaption
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = 1
     object Label1: TLabel
       Left = 8
       Top = 8
@@ -117,7 +116,7 @@ object frmFB_CSV: TfrmFB_CSV
       Width = 75
       Height = 25
       Caption = '&Procurar'
-      TabOrder = 0
+      TabOrder = 1
       OnClick = btnBrowseClick
     end
     object edtBD: TEdit
@@ -126,7 +125,7 @@ object frmFB_CSV: TfrmFB_CSV
       Width = 609
       Height = 23
       ReadOnly = True
-      TabOrder = 1
+      TabOrder = 4
     end
     object cbbTable: TComboBox
       Left = 8
@@ -134,7 +133,7 @@ object frmFB_CSV: TfrmFB_CSV
       Width = 154
       Height = 23
       Style = csDropDownList
-      TabOrder = 2
+      TabOrder = 5
       OnExit = cbbTableExit
     end
     object edtPort: TEdit
@@ -145,7 +144,7 @@ object frmFB_CSV: TfrmFB_CSV
       Alignment = taCenter
       MaxLength = 4
       NumbersOnly = True
-      TabOrder = 3
+      TabOrder = 0
     end
     object btnEdit: TButton
       Left = 356
@@ -153,7 +152,7 @@ object frmFB_CSV: TfrmFB_CSV
       Width = 75
       Height = 25
       Caption = '&Alterar'
-      TabOrder = 4
+      TabOrder = 2
       OnClick = btnEditClick
     end
     object btnCancel: TButton
@@ -162,7 +161,7 @@ object frmFB_CSV: TfrmFB_CSV
       Width = 75
       Height = 25
       Caption = '&Cancelar'
-      TabOrder = 5
+      TabOrder = 3
       OnClick = btnCancelClick
     end
   end
@@ -173,7 +172,7 @@ object frmFB_CSV: TfrmFB_CSV
     Height = 148
     Color = 10930928
     ParentBackground = False
-    TabOrder = 1
+    TabOrder = 2
     object Label5: TLabel
       Left = 8
       Top = 7
@@ -215,14 +214,14 @@ object frmFB_CSV: TfrmFB_CSV
       Width = 609
       Height = 23
       ReadOnly = True
-      TabOrder = 1
+      TabOrder = 2
     end
     object ProgressBar1: TProgressBar
       Left = 1
       Top = 125
       Width = 626
       Height = 28
-      TabOrder = 2
+      TabOrder = 3
     end
     object btnImport: TButton
       Left = 272
@@ -230,7 +229,7 @@ object frmFB_CSV: TfrmFB_CSV
       Width = 75
       Height = 25
       Caption = '&Importar'
-      TabOrder = 3
+      TabOrder = 1
       OnClick = btnImportClick
     end
   end
@@ -241,7 +240,7 @@ object frmFB_CSV: TfrmFB_CSV
     Height = 64
     Color = clMoneyGreen
     ParentBackground = False
-    TabOrder = 2
+    TabOrder = 1
     object Label4: TLabel
       Left = 8
       Top = 7
@@ -311,7 +310,7 @@ object frmFB_CSV: TfrmFB_CSV
     Left = 560
     Top = 96
     Bitmap = {
-      494C010102000C00040020002000FFFFFFFFFF00FFFFFFFFFFFFFFFF424D3600
+      494C010102000C00040020002000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000800000002000000001002000000000000040
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -843,7 +842,8 @@ object frmFB_CSV: TfrmFB_CSV
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000080000001800000010000000000000000
       FFFFFFFFFFFFFFFF0000000000000000FFFFFFFFFFFFFFFF0000000000000000
-      FFFFFFFFFFFFFFFF0000000000000000}
+      FFFFFFFFFFFFFFFF000000000000000000000000000000000000000000000000
+      000000000000}
   end
   object FDGUIxWaitCursor1: TFDGUIxWaitCursor
     Provider = 'Forms'
