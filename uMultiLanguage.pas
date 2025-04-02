@@ -26,7 +26,7 @@ begin
    with frmFB_CSV do
    begin
       Caption := 'FB_CSV - Exportação/Importação de arquivos CSV de/para o banco de dados Firebird';
-      StatusBar1.Panels[0].Text := 'Desenvolvido em Delphi 12.1, componentes FireDAC, versão 0.3 (2025)';
+      StatusBar1.Panels[0].Text := 'Desenvolvido em Delphi 12.1, componentes FireDAC, versão 0.1.0.0 (2025)';
       btnBrowse.Caption := '&Procurar';
       btnExport.Caption := '&Exportar';
       btnImport.Caption := '&Importar';
@@ -70,7 +70,7 @@ begin
    with frmFB_CSV do
    begin
       Caption := 'FB_CSV - Export/Import CSV files to/from Firebird database';
-      StatusBar1.Panels[0].Text := 'Developed in Delphi 12.1, FireDAC components, version 0.3 (2025)';
+      StatusBar1.Panels[0].Text := 'Developed in Delphi 12.1, FireDAC components, version 0.1.0.0 (2025)';
       btnBrowse.Caption := '&Browse';
       btnExport.Caption := '&Export';
       btnImport.Caption := '&Import';
