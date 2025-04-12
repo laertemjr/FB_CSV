@@ -64,6 +64,7 @@ type
     procedure btn_ptBRClick(Sender: TObject);
     procedure btn_enClick(Sender: TObject);
     procedure btnCancelClick(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
   private
     { Private declarations }
   public
@@ -380,6 +381,11 @@ end;
 procedure TfrmFB_CSV.btn_enClick(Sender: TObject);
 begin
    en;
+end;
+
+procedure TfrmFB_CSV.FormDestroy(Sender: TObject);
+begin
+   iniconf.Free;
 end;
 
 end.

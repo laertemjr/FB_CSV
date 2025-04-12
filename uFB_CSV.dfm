@@ -13,6 +13,7 @@ object frmFB_CSV: TfrmFB_CSV
   Font.Name = 'Segoe UI'
   Font.Style = []
   OnActivate = FormActivate
+  OnDestroy = FormDestroy
   TextHeight = 15
   object Panel1: TPanel
     Left = 0
