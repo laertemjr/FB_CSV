@@ -385,7 +385,7 @@ end;
 
 procedure TfrmFB_CSV.FormDestroy(Sender: TObject);
 begin
-   iniconf.Free;
+   //iniconf.Free;
 end;
 
 end.
