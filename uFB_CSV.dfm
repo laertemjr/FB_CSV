@@ -112,7 +112,7 @@ object frmFB_CSV: TfrmFB_CSV
       OnClick = btn_enClick
     end
     object btnBrowse: TButton
-      Left = 48
+      Left = 8
       Top = 63
       Width = 75
       Height = 25
