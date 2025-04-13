@@ -69,13 +69,15 @@ type
     { Private declarations }
   public
     { Public declarations }
+    function GetVersionInfo(const app:string):string;
   end;
 
 var
-  frmFB_CSV: TfrmFB_CSV;
-  path, path2:string;
-  iniconf: TIniFile;
-  strngs: array[0..11] of string = ('','','','','','','','','','','','');
+  frmFB_CSV : TfrmFB_CSV;
+  path, path2 : string;
+  iniconf : TIniFile;
+  strngs : array[0..11] of string = ('','','','','','','','','','','','');
+  sVerInfo : string;
 
 implementation
 
@@ -98,6 +100,7 @@ begin
    iniconf := TIniFile.Create(ExtractFilePath(Application.ExeName) + 'config.ini');
    loadConfigINI;
    edtPort.Enabled := False;
+   sVerInfo := GetVersionInfo(Application.ExeName);
    ptBR;
 end;
 
@@ -373,6 +376,33 @@ begin
    edtPort.SelStart  := Length(edtPort.Text);
 end;
 
+function TfrmFB_CSV.GetVersionInfo(const app: string): string;
+type
+  TVersionInfo = packed record
+    Dummy: array[0..7] of Byte;
+    V2, V1, V4, V3: Word;
+  end;
+var
+  Zero, Size: Cardinal;
+  Data: Pointer;
+  VersionInfo: ^TVersionInfo;
+begin
+  Size := GetFileVersionInfoSize(Pointer(app), Zero);
+  if Size = 0 then
+    Result := ''
+  else
+  begin
+    GetMem(Data, Size);
+    try
+      GetFileVersionInfo(Pointer(app), 0, Size, Data);
+      VerQueryValue(Data, '\', Pointer(VersionInfo), Size);
+      Result := VersionInfo.V1.ToString + '.' + VersionInfo.V2.ToString + '.' + VersionInfo.V3.ToString + '.' + VersionInfo.V4.ToString;
+    finally
+      FreeMem(Data);
+    end;
+  end;
+end;
+
 procedure TfrmFB_CSV.btn_ptBRClick(Sender: TObject);
 begin
    ptBR;
@@ -382,7 +412,6 @@ procedure TfrmFB_CSV.btn_enClick(Sender: TObject);
 begin
    en;
 end;
-
 procedure TfrmFB_CSV.FormDestroy(Sender: TObject);
 begin
    iniconf.Free;

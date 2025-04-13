@@ -273,9 +273,7 @@ object frmFB_CSV: TfrmFB_CSV
     Panels = <
       item
         Alignment = taCenter
-        Text = 
-          'Desenvolvido em Delphi 12.1, componentes FireDAC, vers'#227'o 0.1.0.0' +
-          ' (2025)'
+        Text = 'Desenvolvido em Delphi 12.1, componentes FireDAC, vers'#227'o '
         Width = 50
       end>
   end
