@@ -8,7 +8,7 @@ Exporta/Importa arquivos texto (CSV) de/para o Firebird, facilidade na troca de 
 
 
 ### :warning: Atenção! / *Warning!*
-* ${\color{red}\textbf{Antes\ de\ testar\ :\ faça\ o\ backup\ do\ banco\ de\ dados.}}$ / ${\color{red}\textbf{Before\ testing\ :\ backup\ the\ database.}}$
+*  Antes de testar: faça o backup do banco de dados. / *Before testing: backup the database.*
 * Este programa não exclui ou altera os registros do banco de dados, mas acrescenta novos registros importados a partir de um arquivo texto (CSV).
 * *This program does not delete or change database records, but adds new records imported from a text file (CSV).*
 
