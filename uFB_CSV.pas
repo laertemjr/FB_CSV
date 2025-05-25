@@ -5,13 +5,16 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Data.DB, StrUtils,
-  Vcl.ComCtrls, ShellAPI, FireDAC.Stan.Intf, FireDAC.Stan.Option,
-  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
-  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.VCLUI.Wait,
-  FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf, FireDAC.DApt,
-  FireDAC.Comp.Client, FireDAC.Comp.DataSet, FireDAC.Phys.FB, FireDAC.Phys.FBDef, System.IniFiles,
+  Vcl.ComCtrls, ShellAPI, FireDAC.Stan.Intf,
+
+  FireDAC.Phys,
+
+  FireDAC.Comp.Client, FireDAC.Comp.DataSet, FireDAC.Phys.FB, System.IniFiles,
   FireDAC.Phys.IBBase, FireDAC.Comp.UI, System.ImageList, Vcl.ImgList,
-  Vcl.Buttons;
+  Vcl.Buttons, FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf,
+  FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async,
+  FireDAC.Phys.FBDef, FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf,
+  FireDAC.DApt, FireDAC.VCLUI.Wait;
 
 type
   TfrmFB_CSV = class(TForm)
